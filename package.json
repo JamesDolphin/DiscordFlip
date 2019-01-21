@@ -1,19 +1,23 @@
 {
   "name": "fishflip",
   "version": "1.0.0",
-  "description": "Saves your thumbs",
+  "description": "Saves your thumb!",
   "main": "fishFlip.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "yes"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesDolphin/fishFlip.git"
+  },
   "author": "James Dolphin",
   "license": "ISC",
-  "dependencies": 
+  "bugs": {
+    "url": "https://github.com/JamesDolphin/fishFlip/issues"
+  },
+  "homepage": "https://github.com/JamesDolphin/fishFlip#readme",
+  "dependencies": {
     "discord.js": "^11.4.2",
-    "node-fetch": "^2.3.0",
-    "ws": "^6.1.2"
-  
+    "dotenv": "^6.2.0"
+  }
 }
