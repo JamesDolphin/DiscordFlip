@@ -22,4 +22,9 @@ client.on('message', msg => {
   }
 });
 
+
+client.on('error', (error) => {
+  console.log(error)
+})
+
 client.login(process.env.DCTOKEN);
